@@ -10,7 +10,7 @@ source:
   sha256: b93afdd1f70e0d4e4f98fc2325047805aaab3e31b90486802172582d16b550e6
 
 build:
-  number: 0
+  number: 1
   skip: True  # [not linux]
   skip: True  # [py < 38]
 
