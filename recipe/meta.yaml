@@ -62,7 +62,7 @@ test:
     - csg_imc_solve --help
     - csg_property --help
     - csg_reupdate --help
-    - xtp_basisset --help
+    - xtp_basisset --help  # [py > 38] 
     - xtp_update_mapfile --help
     - xtp_modify_jobfile --help
 
