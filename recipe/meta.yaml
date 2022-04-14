@@ -63,8 +63,8 @@ test:
     - csg_property --help
     - csg_reupdate --help
     - xtp_basisset --help  # [py > 38] 
-    - xtp_update_mapfile --help
-    - xtp_modify_jobfile --help
+    - xtp_update_mapfile --help  # [py > 38]
+    - xtp_modify_jobfile --help  # [py > 38]
 
 about:
   home: https://www.votca.org
