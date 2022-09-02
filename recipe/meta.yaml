@@ -36,6 +36,7 @@ requirements:
     - libecpint
     - lxml
     - h5py
+    - gromacs
   run:
     - python
     - boost-cpp
