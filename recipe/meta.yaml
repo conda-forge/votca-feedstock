@@ -42,6 +42,7 @@ requirements:
     - boost-cpp
     - libint
     - lxml
+    - gromacs
 
 test:
   commands:
