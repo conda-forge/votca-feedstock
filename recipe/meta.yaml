@@ -64,9 +64,9 @@ test:
     - csg_imc_solve --help
     - csg_property --help
     - csg_reupdate --help
-    - xtp_basisset --help  # [py > 38] 
-    - xtp_update_mapfile --help  # [py > 38]
-    - xtp_modify_jobfile --help  # [py > 38]
+    - xtp_basisset --help  # [py > 39] 
+    - xtp_update_mapfile --help  # [py > 39]
+    - xtp_modify_jobfile --help  # [py > 39]
 
 about:
   home: https://www.votca.org
