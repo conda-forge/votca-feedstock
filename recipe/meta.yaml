@@ -1,13 +1,13 @@
 {% set name = "votca" %}
-{% set version = "2022" %}
+{% set version = "2022.1" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/votca/votca/archive/refs/tags/v2022.tar.gz
-  sha256: eac5e34bd6304780ddb82edcd805c4ea7ac3f13224e61a339f7836e06c3fabaa
+  url: https://github.com/votca/votca/archive/refs/tags/v2022.1.tar.gz
+  sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
 
 build:
   number: 7
