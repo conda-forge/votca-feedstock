@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/votca/votca/archive/refs/tags/v2022.1.tar.gz
-  sha256: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  sha256: 4710a7552f94789936324d76d2e0830b576de8d3f1c605748e2d20947d018100
 
 build:
-  number: 7
+  number: 0
   skip: True  # [not linux]
   skip: True  # [py < 38]
 
