@@ -1,11 +1,11 @@
-About votca
-===========
+About votca-feedstock
+=====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/votca-feedstock/blob/main/LICENSE.txt)
 
 Home: https://www.votca.org
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/votca-feedstock/blob/main/LICENSE.txt)
 
 Summary: Versatile Object-oriented Toolkit for Coarse-graining Applications (VOTCA)
 
