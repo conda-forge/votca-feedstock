@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/votca/votca/archive/v{{ version }}.tar.gz
-  sha256: ac78d2eb5a6694b76878d2ab1ec86bb161765143a447cc23905cdcb2bb6743be
+  sha256: be1f8ad3de2ce86f0c01014aa5358c181f128a847bc4508ba0a4bffd5c82a1cf
 
 build:
   number: 0
