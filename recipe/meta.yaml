@@ -46,7 +46,6 @@ requirements:
 
 test:
   commands:
-    - votca_help2doc --help
     - votca_property --help
     - csg_boltzmann --help
     - csg_gmxtopol --help
