@@ -1,16 +1,16 @@
 {% set name = "votca" %}
-{% set version = "2022.1" %}
+{% set version = "2023" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/votca/votca/archive/refs/tags/v2022.1.tar.gz
+  url: https://github.com/votca/votca/archive/v{{ version }}.tar.gz
   sha256: 4710a7552f94789936324d76d2e0830b576de8d3f1c605748e2d20947d018100
 
 build:
-  number: 6
+  number: 0
   skip: True  # [not linux]
   skip: True  # [py < 38]
 
