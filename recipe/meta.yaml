@@ -1,16 +1,16 @@
 {% set name = "votca" %}
-{% set version = "2022.1" %}
+{% set version = "2023" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/votca/votca/archive/refs/tags/v2022.1.tar.gz
-  sha256: 4710a7552f94789936324d76d2e0830b576de8d3f1c605748e2d20947d018100
+  url: https://github.com/votca/votca/archive/v{{ version }}.tar.gz
+  sha256: ac78d2eb5a6694b76878d2ab1ec86bb161765143a447cc23905cdcb2bb6743be
 
 build:
-  number: 6
+  number: 0
   skip: True  # [not linux]
   skip: True  # [py < 38]
 
@@ -46,8 +46,6 @@ requirements:
 
 test:
   commands:
-    - votca_compare --help
-    - votca_help2doc --help
     - votca_property --help
     - csg_boltzmann --help
     - csg_gmxtopol --help
