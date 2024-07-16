@@ -1,5 +1,5 @@
 {% set name = "votca" %}
-{% set version = "2024" %}
+{% set version = "2024.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://github.com/votca/votca/archive/v{{ version }}.tar.gz
-  sha256: be1f8ad3de2ce86f0c01014aa5358c181f128a847bc4508ba0a4bffd5c82a1cf
+  sha256: 74d447f976a7d5c05ec65ab99f52b75379cafa3b40b8bc3b9b328f8402bc53dc
 
 build:
   number: 0
-  skip: True  # [not linux]
-  skip: True  # [py < 38]
+  skip: true  # [not linux]
+  skip: true  # [py < 38]
 
 requirements:
   build:
@@ -51,7 +51,7 @@ test:
     - csg_gmxtopol --help
     - csg_map --help
     - csg_stat --help
-    - csg_resample --help 
+    - csg_resample --help
     - csg_call --help
     - csg_boltzmann --help
     - csg_inverse --help
