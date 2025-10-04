@@ -1,5 +1,5 @@
 {% set name = "votca" %}
-{% set version = "2024.2" %}
+{% set version = "2025.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/votca/votca/archive/v{{ version }}.tar.gz
-  sha256: 704d50f64bbfa2e19d0aa4b5726ac35c20c3b9b45554be5f1e1417d430e31c24
+  sha256: 85b487d2b2a31f26869be422c98f816b95c88a4ab112ea4650cccd4c2706bdbf
 
 build:
-  number: 2
+  number: 0
   skip: true  # [not linux]
   skip: true  # [py < 38]
 
