@@ -1,4 +1,5 @@
 #!/bin/bash
+CXXFLAGS="${CXXFLAGS} -fPIC"
 ln -sf "$BUILD_PREFIX/$HOST/sysroot/usr/lib/libm.so.6" "$BUILD_PREFIX/$HOST/sysroot/usr/lib/libm.so"
 mkdir build
 cd build
